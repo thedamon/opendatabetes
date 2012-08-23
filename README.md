@@ -16,4 +16,4 @@ If you're interested in contributing to this project, or if there's other projec
 You can read more about Sanguine at [www.sanguinediabetes.com][1]
 
 
-[1]: http://wwww.sanguinediabetes.com "Sanguine Diabetes Manager website"
+[1]: http://www.sanguinediabetes.com "Sanguine Diabetes Manager website"
