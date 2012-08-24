@@ -3,7 +3,7 @@ Opendatabetes
 
 Open Databetes is an all-inclusive data-format to store diabetes treatment information.
 
-Once the dataformat is all shiny and nice, the primary will shift to making conversions for other systems into the opendatabetes format. Ultimately it would be completely awesome to have a conversion for every pump, glucometer and diabetes app out there.
+Once the dataformat is all shiny and nice, the primary focus will shift to providing conversions for other systems into the opendatabetes format. Ultimately it would be completely awesome to have a conversion for every pump, glucometer and diabetes app out there.
 
 Right now there are hundreds of fragmented solutions for tracking blood glucose and insulin, exercise, life information that relate to living with diabetes. Most are proprietary. Every company has its own method of tracking and storing the data and they don't tend to play nice with each other.
 
