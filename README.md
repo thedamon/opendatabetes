@@ -1,7 +1,7 @@
 OpenDataBetes
 =============
 
-###Open Databetes is an all-inclusive data-format to store diabetes treatment information. 
+##an all-inclusive data-format to store diabetes treatment information. 
 
 We are currently at version 0.000, so there's not much to download, but there's a lot of work to be done
 
