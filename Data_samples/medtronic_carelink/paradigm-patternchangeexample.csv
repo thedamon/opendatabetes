@@ -1,0 +1,94 @@
+Medtronic Diabetes CareLink Personal Data Export File (v1.0.1) 
+PATIENT INFO
+Name,Damon Muma
+Report Range,02/02/11,to,02/02/11
+DEVICE INFO
+Pump:,Paradigm 522,#445528,
+Data Exported on,02/02/11 2:31
+DEVICE DATA (83 records)
+Data Range,02/02/11 02:11:31,to,02/02/11 02:26:53
+Index,Date,Time,Timestamp,New Device Time,BG Reading (mmol/L),Linked BG Meter ID,Temp Basal Amount (U/h),Temp Basal Type,Temp Basal Duration (hh:mm:ss),Bolus Type,Bolus Volume Selected (U),Bolus Volume Delivered (U),Programmed Bolus Duration (hh:mm:ss),Prime Type,Prime Volume Delivered (U),Suspend,Rewind,BWZ Estimate (U),BWZ Target High BG (mmol/L),BWZ Target Low BG (mmol/L),BWZ Carb Ratio (grams),BWZ Insulin Sensitivity (mmol/L),BWZ Carb Input (grams),BWZ BG Input (mmol/L),BWZ Correction Estimate (U),BWZ Food Estimate (U),BWZ Active Insulin (U),Alarm,Sensor Calibration BG (mmol/L),Sensor Glucose (mmol/L),ISIG Value,Daily Insulin Total (U),Raw-Type,Raw-Values,Raw-ID,Raw-Upload ID,Raw-Seq Num,Raw-Device Type
+1,02/02/11,02:11:31,02/02/11 02:11:31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ChangeBasalProfile,"PATTERN_DATUM=5706979782, PROFILE_INDEX=1, RATE=0.75, START_TIME=25200000",5706979784,50274994,81,Paradigm 522
+2,02/02/11,02:11:31,02/02/11 02:11:31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ChangeBasalProfile,"PATTERN_DATUM=5706979782, PROFILE_INDEX=0, RATE=0.5, START_TIME=0",5706979783,50274994,80,Paradigm 522
+3,02/02/11,02:11:31,02/02/11 02:11:31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ChangeBasalProfilePattern,"PATTERN_NAME=pattern a, NUM_PROFILES=2, ACTION_REQUESTOR=pump",5706979782,50274994,79,Paradigm 522
+4,02/02/11,02:11:31,02/02/11 02:11:31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ChangeActiveBasalProfilePattern,"PATTERN_NAME=pattern a, OLD_PATTERN_NAME=standard, ACTION_REQUESTOR=pump",5706979785,50274994,82,Paradigm 522
+5,02/02/11,02:13:07,02/02/11 02:13:07,,,,,,,,,,,,,,,,,,,,,,,,,,7.1,,,,CalBGForPH,"AMOUNT=128, ACTION_REQUESTOR=pump",5706979781,50274994,78,Paradigm 522
+6,02/02/11,02:13:16,02/02/11 02:13:16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,UnabsorbedInsulin,"BOLUS_ESTIMATE_DATUM=5706979778, INDEX=0, AMOUNT=1.5, RECORD_AGE=197, INSULIN_TYPE=null, INSULIN_ACTION_CURVE=240",5706979779,50274994,76,Paradigm 522
+7,02/02/11,02:13:16,02/02/11 02:13:16,,,,,,,,,,,,,,,0.1,6.0,5.0,11,3.5,0,7.1,0.3,0,0.2,,,,,,BolusWizardBolusEstimate,"BG_INPUT=127.914, BG_UNITS=mmol l, CARB_INPUT=0, CARB_UNITS=grams, CARB_RATIO=11, INSULIN_SENSITIVITY=63.056, BG_TARGET_LOW=90.08, BG_TARGET_HIGH=108.096, BOLUS_ESTIMATE=0.1, CORRECTION_ESTIMATE=0.3, FOOD_ESTIMATE=0, UNABSORBED_INSULIN_TOTAL=0.2, UNABSORBED_INSULIN_COUNT=2, ACTION_REQUESTOR=pump",5706979778,50274994,75,Paradigm 522
+8,02/02/11,02:13:16,02/02/11 02:13:16,,,,,,,Normal,0.1,0.1,,,,,,,,,,,,,,,,,,,,,BolusNormal,"AMOUNT=0.1, CONCENTRATION=null, PROGRAMMED_AMOUNT=0.1, ACTION_REQUESTOR=pump, ENABLE=true, IS_DUAL_COMPONENT=false, UNABSORBED_INSULIN_TOTAL=null",5706979777,50274994,74,Paradigm 522
+9,02/02/11,02:13:16,02/02/11 02:13:16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,UnabsorbedInsulin,"BOLUS_ESTIMATE_DATUM=5706979778, INDEX=1, AMOUNT=5.5, RECORD_AGE=387, INSULIN_TYPE=null, INSULIN_ACTION_CURVE=240",5706979780,50274994,77,Paradigm 522
+10,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentTimeDisplayFormat,FORMAT=d24,5706979703,50274994,0,Paradigm 522
+11,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentAudioBolusStep,"AMOUNT=1, ENABLE=true",5706979704,50274994,1,Paradigm 522
+12,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentVariableBolusEnable,ENABLE=true,5706979705,50274994,2,Paradigm 522
+13,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBeepVolume,LEVEL=low,5706979706,50274994,3,Paradigm 522
+14,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentAutoOffDuration,DURATION=0,5706979707,50274994,4,Paradigm 522
+15,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentTotalToday,AMOUNT=1.2,5706979708,50274994,5,Paradigm 522
+16,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentTempBasal,"RATE=0, DURATION=0",5706979709,50274994,6,Paradigm 522
+17,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentMaxBasal,RATE=2,5706979710,50274994,7,Paradigm 522
+18,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentMaxBolus,AMOUNT=20,5706979711,50274994,8,Paradigm 522
+19,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentActiveBasalProfilePattern,PATTERN_NAME=pattern a,5706979712,50274994,9,Paradigm 522
+20,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfilePattern,"PATTERN_NAME=standard, NUM_PROFILES=4",5706979713,50274994,10,Paradigm 522
+21,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=5706979713, PROFILE_INDEX=0, RATE=0.45, START_TIME=0",5706979714,50274994,11,Paradigm 522
+22,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=5706979713, PROFILE_INDEX=1, RATE=0.8, START_TIME=25200000",5706979715,50274994,12,Paradigm 522
+23,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=5706979713, PROFILE_INDEX=2, RATE=0.7, START_TIME=43200000",5706979716,50274994,13,Paradigm 522
+24,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=5706979713, PROFILE_INDEX=3, RATE=0.65, START_TIME=68400000",5706979717,50274994,14,Paradigm 522
+25,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfilePattern,"PATTERN_NAME=pattern a, NUM_PROFILES=2",5706979718,50274994,15,Paradigm 522
+26,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=5706979718, PROFILE_INDEX=0, RATE=0.5, START_TIME=0",5706979719,50274994,16,Paradigm 522
+27,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfile,"PATTERN_DATUM=5706979718, PROFILE_INDEX=1, RATE=0.75, START_TIME=25200000",5706979720,50274994,17,Paradigm 522
+28,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBasalProfilePattern,"PATTERN_NAME=pattern b, NUM_PROFILES=0",5706979721,50274994,18,Paradigm 522
+29,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentVariableBasalProfilePatternEnable,ENABLE=true,5706979722,50274994,19,Paradigm 522
+30,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentChildBlockEnable,ENABLE=false,5706979723,50274994,20,Paradigm 522
+31,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentAlarmNotifyMode,MODE=audio,5706979724,50274994,21,Paradigm 522
+32,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentRFEnable,ENABLE=false,5706979725,50274994,22,Paradigm 522
+33,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentTotalYesterday,AMOUNT=32.3,5706979726,50274994,23,Paradigm 522
+34,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBatteryStatus,"STATUS=normal, VOLTAGE=129",5706979727,50274994,24,Paradigm 522
+35,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentTotalRemaining,AMOUNT=67,5706979728,50274994,25,Paradigm 522
+36,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentErrorStatus,RAW_STATUS=0,5706979729,50274994,26,Paradigm 522
+37,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentRemoteControlID,"PROGRAMMER_NUM=1, REMOTE_CONTROL_ID=------",5706979730,50274994,27,Paradigm 522
+38,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentRemoteControlID,"PROGRAMMER_NUM=2, REMOTE_CONTROL_ID=------",5706979731,50274994,28,Paradigm 522
+39,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentRemoteControlID,"PROGRAMMER_NUM=3, REMOTE_CONTROL_ID=------",5706979732,50274994,29,Paradigm 522
+40,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentPumpStatus,STATUS=normal,5706979733,50274994,30,Paradigm 522
+41,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentTempBasalType,TEMP_BASAL_TYPE=percentage,5706979734,50274994,31,Paradigm 522
+42,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentParadigmLinkEnable,ENABLE=false,5706979735,50274994,32,Paradigm 522
+43,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinActionCurve,AMOUNT=240,5706979736,50274994,33,Paradigm 522
+44,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentPumpModelNumber,MODEL_NUMBER=522,5706979737,50274994,34,Paradigm 522
+45,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentAlarmClockEnable,ENABLE=false,5706979738,50274994,35,Paradigm 522
+46,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBGReminderEnable,ENABLE=true,5706979739,50274994,36,Paradigm 522
+47,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBolusWizardEnable,ENABLE=true,5706979740,50274994,37,Paradigm 522
+48,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBolusWizardBGUnits,UNITS=mmol l,5706979741,50274994,38,Paradigm 522
+49,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBolusWizardCarbUnits,UNITS=grams,5706979742,50274994,39,Paradigm 522
+50,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentDisplayLanguage,LANGUAGE=english,5706979743,50274994,40,Paradigm 522
+51,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentParadigmLinkID,"PROGRAMMER_NUM=1, PARADIGM_LINK_ID=------",5706979744,50274994,41,Paradigm 522
+52,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentParadigmLinkID,"PROGRAMMER_NUM=2, PARADIGM_LINK_ID=------",5706979745,50274994,42,Paradigm 522
+53,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentParadigmLinkID,"PROGRAMMER_NUM=3, PARADIGM_LINK_ID=------",5706979746,50274994,43,Paradigm 522
+54,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBolusWizardSetupStatus,"IS_SETUP_COMPLETE=true, IS_BOLUS_WIZARD_ENABLED=true, IS_CARB_UNITS_COMPLETE=true, IS_CARB_RATIOS_COMPLETE=true, IS_BG_UNITS_COMPLETE=true, IS_INSULIN_SENSITIVITIES_COMPLETE=true, IS_BG_TARGETS_COMPLETE=true",5706979747,50274994,44,Paradigm 522
+55,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBGTargetRangePattern,"ORIGINAL_UNITS=mmol l, SIZE=1",5706979748,50274994,45,Paradigm 522
+56,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBGTargetRange,"PATTERN_DATUM=5706979748, INDEX=0, AMOUNT_LOW=90.08, AMOUNT_HIGH=108.096, START_TIME=0",5706979749,50274994,46,Paradigm 522
+57,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatioPattern,SIZE=4,5706979750,50274994,47,Paradigm 522
+58,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=5706979750, INDEX=0, AMOUNT=11, UNITS=grams, START_TIME=0",5706979751,50274994,48,Paradigm 522
+59,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=5706979750, INDEX=1, AMOUNT=10, UNITS=grams, START_TIME=25200000",5706979752,50274994,49,Paradigm 522
+60,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=5706979750, INDEX=2, AMOUNT=12, UNITS=grams, START_TIME=43200000",5706979753,50274994,50,Paradigm 522
+61,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentCarbRatio,"PATTERN_DATUM=5706979750, INDEX=3, AMOUNT=11, UNITS=grams, START_TIME=63000000",5706979754,50274994,51,Paradigm 522
+62,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivityPattern,"ORIGINAL_UNITS=mmol l, SIZE=1",5706979755,50274994,52,Paradigm 522
+63,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentInsulinSensitivity,"PATTERN_DATUM=5706979755, INDEX=0, AMOUNT=63.056, START_TIME=0",5706979756,50274994,53,Paradigm 522
+64,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentReservoirWarningUnits,UNITS=insulin,5706979757,50274994,54,Paradigm 522
+65,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentReservoirWarningValueInsulin,AMOUNT=20,5706979758,50274994,55,Paradigm 522
+66,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentKeypadLockedEnable,ENABLE=false,5706979759,50274994,56,Paradigm 522
+67,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentBolusReminderEnable,ENABLE=false,5706979760,50274994,57,Paradigm 522
+68,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentHistoryPageNumber,PAGE_NUMBER=68,5706979761,50274994,58,Paradigm 522
+69,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentGlucoseHistoryPageNumber,PAGE_NUMBER=9,5706979762,50274994,59,Paradigm 522
+70,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorCalReminderEnable,ENABLE=true,5706979763,50274994,60,Paradigm 522
+71,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorHighGlucoseAlarmEnable,ENABLE=false,5706979764,50274994,61,Paradigm 522
+72,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorLowGlucoseAlarmEnable,ENABLE=false,5706979765,50274994,62,Paradigm 522
+73,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorEnable,ENABLE=false,5706979766,50274994,63,Paradigm 522
+74,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorHighGlucoseLimit,AMOUNT=199.978,5706979767,50274994,64,Paradigm 522
+75,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorLowGlucoseLimit,AMOUNT=50.445,5706979768,50274994,65,Paradigm 522
+76,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorCalReminderTime,TIME=3600000,5706979769,50274994,66,Paradigm 522
+77,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorAlarmSnoozeTime,TIME=1800000,5706979770,50274994,67,Paradigm 522
+78,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorHighGlucoseSnoozeTime,TIME=3600000,5706979771,50274994,68,Paradigm 522
+79,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorLowGlucoseSnoozeTime,TIME=1200000,5706979772,50274994,69,Paradigm 522
+80,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorMissedDataTime,TIME=1800000,5706979773,50274994,70,Paradigm 522
+81,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorTransmitterID,TRANSMITTER_ID=-------,5706979774,50274994,71,Paradigm 522
+82,02/02/11,02:26:52,02/02/11 02:26:52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CurrentSensorBGUnits,UNITS=mmol l,5706979775,50274994,72,Paradigm 522
+83,02/02/11,02:26:53,02/02/11 02:26:53,,,,,,,,,,,,,Suspended,,,,,,,,,,,,,,,,,ChangeSuspendEnable,"ENABLE=user_suspend, ACTION_REQUESTOR=rf_diagnostic, PRE_ENABLE=null",5706979776,50274994,73,Paradigm 522
+

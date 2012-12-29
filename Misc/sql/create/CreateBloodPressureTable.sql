@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS BloodPressure 
+( 
+PatientId INTEGER,
+DateTime TEXT,
+Value TEXT,
+PRIMARY KEY( PatientId, DateTime ) ON CONFLICT IGNORE
+);

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Weight 
+( 
+PatientId INTEGER,
+DateTime TEXT,
+Value REAL,
+PRIMARY KEY( PatientId, DateTime ) ON CONFLICT IGNORE
+);
