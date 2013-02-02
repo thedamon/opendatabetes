@@ -17,5 +17,15 @@ So to get the ball rolling, here is a github repo and a readme.
 
 If you're interested in contributing to this project, or if there's other projects already doing this that I haven't found please contact me.
 
+For an inventory of existing formats in the wild, the [Diabetes Data Wiki][2] is a good place to start, the author [farrell paper][3] also has some suggestions.
+
+> ~bewest
+> Is there a way to re-use git/npm/egg style compilations of data, so that there is a sane structure of plain text files?
+> These are easy to work with/reformat into csv/json/xml, etc, and we will need many adapters.
+> This way, I could point the tool, `sanguine <git://github.com/bewest/my-data.git>` or `insulaudit upload git@github.com:bewest/my-phr.git`
+> We can bundle some basic tools to verify/reformat data, and it provides a nice audit trail on what software has done to it, and is endlessly extensible.
+
 
 [1]: http://www.sanguinediabetes.com "Sanguine Diabetes Manager website"
+[2]: http://diabetesdata.pbworks.com/w/page/17680096/FrontPage "Diabetes Data Wiki"
+[3]: http://www.journalofdst.org/pdf/March2007/VOL-1-2-CGM1-FARRELL.pdf "farrell paper"
