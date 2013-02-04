@@ -25,6 +25,10 @@ For an inventory of existing formats in the wild, the [Diabetes Data Wiki][2] is
 > This way, I could point the tool, `sanguine <git://github.com/bewest/my-data.git>` or `insulaudit upload git@github.com:bewest/my-phr.git`
 > We can bundle some basic tools to verify/reformat data, and it provides a nice audit trail on what software has done to it, and is endlessly extensible.
 
+> ~thedamon
+> I'm not familiar with those, personally.  
+> I was thinking of using straight up JSON because of its seeming ubiquity and ease of parsing it in most circumstances. With JSON you get a low point of entry for people wanting to plug things in and play around.
+> But if one of these formats is more easily parsed, that could make sense.
 
 [1]: http://www.sanguinediabetes.com "Sanguine Diabetes Manager website"
 [2]: http://diabetesdata.pbworks.com/w/page/17680096/FrontPage "Diabetes Data Wiki"
