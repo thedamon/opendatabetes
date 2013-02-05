@@ -33,7 +33,8 @@ This is a preliminary summary of the data that needs to be tracked, for now with
  - HBA1C, Weight, BP, ?[^h]
  - Exercise
 	- Time (start) and Time (end)
-	- Activity - *running, cycling, walking, etc.*
+	- (Activity) - *running, cycling, walking, etc.*
+	- (Intensity) - *Light, Moderate, Vigorous* [^k]
 	- (OtherStats) - *heartrate, calories burned, miles run, etc.*
 	- (PumpDisconnected) - *boolean*[^i]
 - Sleep[^j]
@@ -60,12 +61,14 @@ This is a preliminary summary of the data that needs to be tracked, for now with
 
 [^f]: This is in my Platonic ideal of diabetes data formats, to have meals connected by reference to their associated bolus events (and vice versa, meal boluses connected to meals and correction boluses to high BG readings), but current data exports from our pumps, meters, etc. don't provide an easy way to do this.
 
-[^g]: I don't know what FK settings is...
+[^g]: I don't know what FK settings is... - Foreign Keys. Tracking pump settings is where it gets tricky because they're all potentially different.
 
 [^h]: HbA1C should have a flag for whether it's one of those instant tests by meter, or a mail-away test, or an actual lab test.
 
-[^i]: I often disconnect my pump for exercise, and that's probably a good thing to track.
+[^i]: I often disconnect my pump for exercise, and that's probably a good thing to track.  --I think in terms of data, this would be technically separate from Exercise. Maybe even just a basal of 0%
 
-[^j]: I think this could be useful for tracking noctural hypoglycemia.
+[^j]: I think this could be useful for tracking noctural hypoglycemia. --Agreed!
+
+[^k]: This is a fairly standard measurement of exercise intensity, I think. http://www.mayoclinic.com/health/exercise-intensity/SM00113
 
 I'm not sure if it is appropriate to have indexes in a microformat, but I think we want some way that comments can map to one or more events without being a property of the event.
